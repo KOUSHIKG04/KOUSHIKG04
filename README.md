@@ -82,7 +82,6 @@
 </div>
 
 <br/>
-<br/>
 
 <div align="center">
  <h5>📌 FEEL FREE TO EXPLORE MY PROJECTS IN MY REPOSITORY'S<h5>
