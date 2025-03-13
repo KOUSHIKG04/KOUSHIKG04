@@ -1,13 +1,12 @@
 <h2 align="center">Hi there! 👋 I'm KOUSHIK G</h2>
 
 <div align="center">
- <p>ABOUT ME</p>
+ <h4>🚀 ABOUT ME</h4>
 </div>
 
 <div align="center">
  <p>I'm a passionate Full Stack Web Developer who loves building robust and scalable applications. While I enjoy working on both frontend and backend, my expertise lies in architecting efficient backend systems to ensure seamless user experiences.</p>
 </div>
- 
 
 <br clear="both">
 
@@ -21,7 +20,7 @@
 <img align="right" height="0" src=" "  />
 
 <div align="center">
- <p>🔥TECH SKILLS</p>
+ <h4>🔥TECH SKILLS</h4>
 </div>
 
 <div align="center">
@@ -60,7 +59,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-line-wordmark.svg" height="30" alt="amazonwebservices logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="30" alt="vscode logo"  />
- 
+
 </div>
 
 <br clear="both">
@@ -70,7 +69,7 @@
 <br/>
 
 <div align="center">
-  <p>CONTACT ME</p>
+  <h4>📫 CONTACT ME</h4>
 </div>
 
 <div align="center">
@@ -85,17 +84,11 @@
 <br/>
 
 <div align="center">
- <p>EXPLORE MY PROJECTS IN MY REPOSITORY'S</p>
+ <h5>📌 EXPLORE MY PROJECTS IN MY REPOSITORY'S<h5>
 </div>
-
 
 <br/>
 <br/>
 <div align="center">
- <p>🔥 Let's Build Something Awesome Together!</p>
+ <h5>🔥 Let's Build Something Awesome Together!</p>
 </div>
-
-
-
-
-
