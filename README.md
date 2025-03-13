@@ -73,7 +73,7 @@
 </div>
 
 <div align="center">
-  <a href="koushikgofficial04@gmail.com" target="_blank">
+   <a href="mailto:koushikgoffical04@gmail.com" class="social-link">
     <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
   </a>
   <a href="https://www.linkedin.com/in/gkoushik27/" target="_blank">
@@ -82,13 +82,17 @@
 </div>
 
 <br/>
+<br/>
 
 <div align="center">
- <h5>📌 EXPLORE MY PROJECTS IN MY REPOSITORY'S<h5>
+ <h5>📌 FEEL FREE TO EXPLORE MY PROJECTS IN MY REPOSITORY'S<h5>
 </div>
 
-<br/>
-<br/>
 <div align="center">
  <h5>🔥 Let's Build Something Awesome Together!</p>
 </div>
+  
+ 
+
+
+ 
