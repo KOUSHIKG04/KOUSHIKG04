@@ -1,8 +1,13 @@
 <h2 align="center">Hi there! 👋 I'm KOUSHIK G</h2>
 
-### ABOUT ME
+<div align="center">
+ <p>ABOUT ME</p>
+</div>
 
-I'm a passionate **Full Stack Web Developer** who loves building robust and scalable applications. While I enjoy working on both frontend and backend, my expertise lies in architecting efficient backend systems to ensure seamless user experiences.
+<div align="center">
+ <p>I'm a passionate **Full Stack Web Developer** who loves building robust and scalable applications. While I enjoy working on both frontend and backend, my expertise lies in architecting efficient backend systems to ensure seamless user experiences.</p>
+</div>
+ 
 
 <br clear="both">
 
@@ -15,13 +20,9 @@ I'm a passionate **Full Stack Web Developer** who loves building robust and scal
 
 <img align="right" height="0" src=" "  />
 
-
-
----
-
-
-
-### SKILLS
+<div align="center">
+ <p>🔥TECH SKILLS</p>
+</div>
 
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
@@ -67,11 +68,11 @@ I'm a passionate **Full Stack Web Developer** who loves building robust and scal
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens) ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white) ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) ![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
----
+<br/>
 
-
-
-### CONTACT ME
+<div align="center">
+  <p>CONTACT ME</p>
+</div>
 
 <div align="center">
   <a href="koushikgofficial04@gmail.com" target="_blank">
@@ -82,8 +83,10 @@ I'm a passionate **Full Stack Web Developer** who loves building robust and scal
   </a>
 </div>
 
----
+<br/>
+
+<div align="center">
+ <p>🔥 Let's Build Something Awesome Together!</p>
+</div>
 
 
-
-### 🔥 Let's Build Something Awesome Together!
