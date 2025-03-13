@@ -1,7 +1,8 @@
-<h2 align="center">Hey! Buddy 👋</h2>
+<h2 align="center">Hi there! 👋 I'm KOUSHIK G</h2>
 
-###
-I'm KOUSHIK G, a passionate Full Stack Web Developer with a keen focus on crafting robust and scalable backend systems. While skilled in both front-end and back-end development, I thrive in architecting efficient core functionalities that power seamless user experiences.
+### ABOUT ME
+
+I'm a passionate **Full Stack Web Developer** who loves building robust and scalable applications. While I enjoy working on both frontend and backend, my expertise lies in architecting efficient backend systems to ensure seamless user experiences.
 
 <br clear="both">
 
@@ -10,13 +11,17 @@ I'm KOUSHIK G, a passionate Full Stack Web Developer with a keen focus on crafti
 <!--   <img src="https://github-readme-stats.vercel.app/api?username=KOUSHIKG04&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  /> -->
 </div>
 
-###
-
 <br clear="both">
 
 <img align="right" height="0" src=" "  />
 
-###
+
+
+---
+
+
+
+### SKILLS
 
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
@@ -58,12 +63,16 @@ I'm KOUSHIK G, a passionate Full Stack Web Developer with a keen focus on crafti
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" height="30" alt="chrome logo"  />
 </div>
 
-###
-
 <br clear="both">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens) ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)  ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) ![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) 
- 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens) ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white) ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) ![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+
+---
+
+
+
+### CONTACT ME
+
 <div align="center">
   <a href="koushikgofficial04@gmail.com" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
@@ -73,9 +82,8 @@ I'm KOUSHIK G, a passionate Full Stack Web Developer with a keen focus on crafti
   </a>
 </div>
 
-###
+---
 
 
 
-
-###
+### 🔥 Let's Build Something Awesome Together!
