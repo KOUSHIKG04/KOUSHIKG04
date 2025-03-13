@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
- <p>I'm a passionate **Full Stack Web Developer** who loves building robust and scalable applications. While I enjoy working on both frontend and backend, my expertise lies in architecting efficient backend systems to ensure seamless user experiences.</p>
+ <p>I'm a passionate Full Stack Web Developer who loves building robust and scalable applications. While I enjoy working on both frontend and backend, my expertise lies in architecting efficient backend systems to ensure seamless user experiences.</p>
 </div>
  
 
@@ -60,8 +60,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-line-wordmark.svg" height="30" alt="amazonwebservices logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="30" alt="vscode logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" height="30" alt="chrome logo"  />
+ 
 </div>
 
 <br clear="both">
@@ -86,7 +85,17 @@
 <br/>
 
 <div align="center">
+ <p>EXPLORE MY PROJECTS IN MY REPOSITORY'S</p>
+</div>
+
+
+<br/>
+<br/>
+<div align="center">
  <p>🔥 Let's Build Something Awesome Together!</p>
 </div>
+
+
+
 
 
