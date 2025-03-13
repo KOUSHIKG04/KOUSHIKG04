@@ -1,4 +1,4 @@
-<h2 align="left">Hey! 👋</h2>
+<h2 align="center">Hey! Buddy 👋</h2>
 
 ###
 I'm KOUSHIK G, a passionate Full Stack Web Developer with a keen focus on crafting robust and scalable backend systems. While skilled in both front-end and back-end development, I thrive in architecting efficient core functionalities that power seamless user experiences.
