@@ -88,8 +88,8 @@ async function queryContributions(from, to) {
         query Contributions($login: String!, $from: DateTime!, $to: DateTime!) {
           user(login: $login) {
             contributionsCollection(from: $from, to: $to) {
-              totalContributions
               contributionCalendar {
+                totalContributions
                 weeks {
                   contributionDays {
                     date
@@ -180,7 +180,7 @@ async function fetchStats() {
 
   for (const range of contributionRanges(FROM_DATE, today)) {
     const collection = await queryContributions(range.from, range.to);
-    totalContributions += collection.totalContributions;
+    totalContributions += collection.contributionCalendar.totalContributions;
 
     for (const week of collection.contributionCalendar.weeks) {
       for (const day of week.contributionDays) {
