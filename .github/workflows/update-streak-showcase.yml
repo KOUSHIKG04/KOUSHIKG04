@@ -10,6 +10,7 @@ on:
     paths:
       - ".github/workflows/update-streak-showcase.yml"
       - "scripts/generate-streak-showcase.js"
+      - "streak-cards.svg"
 
 permissions:
   contents: write

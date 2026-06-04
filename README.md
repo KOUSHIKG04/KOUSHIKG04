@@ -37,7 +37,7 @@
   </a>
   <br />
   <br />
-  <a href="#" target="_blank">
+  <a href="https://drive.google.com/file/d/1X_RBhVZRfhsL71g1ugxSn2UFtGKifh-e/view?usp=drive_link" target="_blank">
     <img src="https://img.icons8.com/color/1200/resume.jpg" height="34" alt="Resume" />
   </a>
 
