@@ -36,13 +36,13 @@ jobs:
 
       - name: Commit updated SVG
         run: |
-          if git diff --quiet -- streak-showcase.svg; then
+          if git diff --quiet -- streak-cards.svg; then
             echo "No streak showcase changes."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add streak-showcase.svg
+          git add streak-cards.svg
           git commit -m "Update streak showcase"
           git push

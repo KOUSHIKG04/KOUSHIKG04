@@ -18,7 +18,7 @@
   </p>
 </div>
 
-<img src="streak-showcase.svg" width="92%" alt="GitHub streak showcase" />
+<img src="streak-cards.svg" width="92%" alt="GitHub streak showcase" />
 
 <br />
 <br />

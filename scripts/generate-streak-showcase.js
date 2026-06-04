@@ -3,7 +3,7 @@ const path = require("path");
 
 const USERNAME = process.env.GITHUB_USERNAME || "KOUSHIKG04";
 const FROM_DATE = process.env.STREAK_FROM || "2021-12-21";
-const SVG_PATH = path.join(__dirname, "..", "streak-showcase.svg");
+const SVG_PATH = path.join(__dirname, "..", "streak-cards.svg");
 const TOKEN = process.env.GITHUB_TOKEN;
 const MOCK = process.argv.includes("--mock") || process.env.MOCK_STREAK_DATA === "1";
 
@@ -221,7 +221,7 @@ async function main() {
   svg = setText(svg, "longest-range", stats.longestRange);
 
   fs.writeFileSync(SVG_PATH, svg);
-  console.log(`Updated streak-showcase.svg for ${USERNAME}`);
+  console.log(`Updated streak-cards.svg for ${USERNAME}`);
 }
 
 main().catch((error) => {
