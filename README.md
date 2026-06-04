@@ -18,23 +18,28 @@
   </p>
 </div>
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=KOUSHIKG04&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5" height="165" alt="GitHub streak graph" />
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <strong>Contact Me</strong>
-  &nbsp;&nbsp;
+<div align="center">
+  <img align="left" src="https://streak-stats.demolab.com?user=KOUSHIKG04&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5" height="125" alt="GitHub streak graph" />
+
+  <strong>Hire Me</strong>
+  <br />
+  <br />
   <a href="mailto:koushikgoffical04@gmail.com">
-    <img src="https://cdn.simpleicons.org/gmail/D14836" height="30" alt="Gmail" />
+    <img src="https://cdn.simpleicons.org/gmail/D14836" height="24" alt="Gmail" />
   </a>
-  &nbsp;&nbsp;
+  <br />
+  <br />
   <a href="https://www.linkedin.com/in/gkoushik27/" target="_blank">
-    <img src="https://cdn.simpleicons.org/linkedin/0A66C2" height="30" alt="LinkedIn" />
+    <img src="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3JtNTMzLW5lb24tMDA5LnBuZw.png" height="34" alt="LinkedIn" />
   </a>
-  &nbsp;&nbsp;
+  <br />
+  <br />
   <a href="#" target="_blank">
-    <img src="https://cdn.simpleicons.org/readme/24292F" height="30" alt="Resume" />
+    <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/resume-icon-svg-download-png-4040385.png?f=webp&w=128" height="34" alt="Resume" />
   </a>
-</p>
+</div>
+
+<br clear="both" />
 
 <div style="width: 92%; border: 2px solid #24292f; border-radius: 18px; padding: 16px 24px; margin: 18px auto;">
   <img src="quotes-typing.svg" alt="Typing SVG quote" />
