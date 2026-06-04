@@ -19,8 +19,6 @@
 </div>
 
 <div align="center">
-  <img align="left" src="https://streak-stats.demolab.com?user=KOUSHIKG04&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5" height="165" alt="GitHub streak graph" />
-
   <strong>Hire Me</strong>
   <br />
   <br />
@@ -39,8 +37,6 @@
   </a>
 
 </div>
-
-<br clear="both" />
 
 <div style="width: 92%; border: 2px solid #24292f; border-radius: 18px; padding: 16px 24px; margin: 18px auto;">
   <img src="quotes-typing.svg" alt="Typing SVG quote" />
