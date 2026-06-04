@@ -19,18 +19,18 @@
 </div>
 
 <p align="center">
-  <strong>Hire Me</strong>
+ <h4><strong>Hire Me</strong></h4>
   &nbsp;&nbsp;&nbsp;
   <a href="mailto:koushikgoffical04@gmail.com">
-    <img src="https://cdn.simpleicons.org/gmail/D14836" height="24" alt="Gmail" />
+    <img src="https://cdn.simpleicons.org/gmail/D14836" height="14" alt="Gmail" />
   </a>
   &nbsp;&nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/gkoushik27/" target="_blank">
-    <img src="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3JtNTMzLW5lb24tMDA5LnBuZw.png" height="34" alt="LinkedIn" />
+    <img src="https://www.flaticon.com/free-icons/linkedin" height="14" alt="LinkedIn" />
   </a>
   &nbsp;&nbsp;&nbsp;
   <a href="https://drive.google.com/file/d/1X_RBhVZRfhsL71g1ugxSn2UFtGKifh-e/view?usp=drive_link" target="_blank">
-    <img src="https://img.icons8.com/color/1200/resume.jpg" height="34" alt="Resume" />
+    <img src="https://www.flaticon.com/free-icons/resume-and-cv" height="14" alt="Resume" />
   </a>
 </p>
 
@@ -38,10 +38,8 @@
   <img src="quotes-typing.svg" alt="Typing SVG quote" />
 </div>
 
-<p align="center">
-  <sub>Feel free to explore my projects in my repositories</sub>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <sub>Let's build something awesome together!</sub>
+<p>
+  <p>Let's build something awesome together!</p>
 </p>
 
 </div>
