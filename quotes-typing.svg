@@ -1,7 +1,8 @@
 <svg width="1000" height="130" viewBox="0 0 1000 130" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
     text {
-      font-family: "Fira Code", Consolas, monospace;
+      font-family: "Geist PixelSquare", "Geist Mono", "Fira Code", Consolas, monospace;
+      font-weight: 500;
       fill: #f7f7f7;
       text-anchor: middle;
       dominant-baseline: middle;
@@ -9,7 +10,7 @@
 
     .quote {
       font-size: 18px;
-      font-weight: 600;
+      font-weight: 500;
     }
 
     .meaning {
