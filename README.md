@@ -18,30 +18,21 @@
   </p>
 </div>
 
-<img src="streak-cards.svg" width="92%" alt="GitHub streak showcase" />
-
-<br />
-<br />
-
-<div align="center">
+<p align="center">
   <strong>Hire Me</strong>
-  <br />
-  <br />
+  &nbsp;&nbsp;&nbsp;
   <a href="mailto:koushikgoffical04@gmail.com">
     <img src="https://cdn.simpleicons.org/gmail/D14836" height="24" alt="Gmail" />
   </a>
-  <br />
-  <br />
+  &nbsp;&nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/gkoushik27/" target="_blank">
     <img src="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3JtNTMzLW5lb24tMDA5LnBuZw.png" height="34" alt="LinkedIn" />
   </a>
-  <br />
-  <br />
+  &nbsp;&nbsp;&nbsp;
   <a href="https://drive.google.com/file/d/1X_RBhVZRfhsL71g1ugxSn2UFtGKifh-e/view?usp=drive_link" target="_blank">
     <img src="https://img.icons8.com/color/1200/resume.jpg" height="34" alt="Resume" />
   </a>
-
-</div>
+</p>
 
 <div style="width: 92%; border: 2px solid #24292f; border-radius: 18px; padding: 16px 24px; margin: 18px auto;">
   <img src="quotes-typing.svg" alt="Typing SVG quote" />
