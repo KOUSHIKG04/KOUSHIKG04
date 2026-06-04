@@ -18,6 +18,11 @@
   </p>
 </div>
 
+<img src="streak-showcase.svg" width="92%" alt="GitHub streak showcase" />
+
+<br />
+<br />
+
 <div align="center">
   <strong>Hire Me</strong>
   <br />
