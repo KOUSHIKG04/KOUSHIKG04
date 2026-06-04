@@ -19,18 +19,18 @@
 </div>
 
 <p align="center">
- <h4><strong>Hire Me</strong></h4>
+  <strong>Hire Me</strong>
   &nbsp;&nbsp;&nbsp;
   <a href="mailto:koushikgoffical04@gmail.com">
-    <img src="https://cdn.simpleicons.org/gmail/D14836" height="14" alt="Gmail" />
+    <img src="https://cdn.simpleicons.org/gmail/D14836" height="22" alt="Gmail" />
   </a>
   &nbsp;&nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/gkoushik27/" target="_blank">
-    <img src="https://www.flaticon.com/free-icons/linkedin" height="14" alt="LinkedIn" />
+    <img src="linkedin.png" height="22" alt="LinkedIn" />
   </a>
   &nbsp;&nbsp;&nbsp;
   <a href="https://drive.google.com/file/d/1X_RBhVZRfhsL71g1ugxSn2UFtGKifh-e/view?usp=drive_link" target="_blank">
-    <img src="https://www.flaticon.com/free-icons/resume-and-cv" height="14" alt="Resume" />
+    <img src="user-profile.png" height="22" alt="Resume" />
   </a>
 </p>
 
@@ -38,8 +38,6 @@
   <img src="quotes-typing.svg" alt="Typing SVG quote" />
 </div>
 
-<p>
-  <p>Let's build something awesome together!</p>
-</p>
+<p align="center">Let's build something awesome together!</p>
 
 </div>
