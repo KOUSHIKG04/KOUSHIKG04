@@ -18,39 +18,32 @@
   </p>
 </div>
 
-<div style="width: 92%; margin: 18px auto;">
-  <div style="display: inline-block; width: 49%; min-width: 320px; vertical-align: top; border: 2px solid #24292f; border-radius: 18px; padding: 24px 0; margin: 8px;">
-    <img src="https://streak-stats.demolab.com?user=KOUSHIKG04&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5" height="165" alt="GitHub streak graph" />
-  </div>
-
-  <div style="display: inline-block; width: 39%; min-width: 260px; vertical-align: top; border: 2px solid #24292f; border-radius: 18px; padding: 42px 0; margin: 8px;">
-    <h4>Contact Me</h4>
-    <a href="mailto:koushikgoffical04@gmail.com">
-      <img src="https://cdn.simpleicons.org/gmail/D14836" height="28" alt="Gmail" />
-    </a>
-    &nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="https://www.linkedin.com/in/gkoushik27/" target="_blank">
-      <img src="https://cdn.simpleicons.org/linkedin/0A66C2" height="28" alt="LinkedIn" />
-    </a>
-    &nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="#" target="_blank">
-      <img src="https://cdn.simpleicons.org/readme/24292F" height="28" alt="Resume" />
-    </a>
-  </div>
-</div>
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=KOUSHIKG04&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5" height="165" alt="GitHub streak graph" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <strong>Contact Me</strong>
+  &nbsp;&nbsp;
+  <a href="mailto:koushikgoffical04@gmail.com">
+    <img src="https://cdn.simpleicons.org/gmail/D14836" height="30" alt="Gmail" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/gkoushik27/" target="_blank">
+    <img src="https://cdn.simpleicons.org/linkedin/0A66C2" height="30" alt="LinkedIn" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="#" target="_blank">
+    <img src="https://cdn.simpleicons.org/readme/24292F" height="30" alt="Resume" />
+  </a>
+</p>
 
 <div style="width: 92%; border: 2px solid #24292f; border-radius: 18px; padding: 16px 24px; margin: 18px auto;">
   <img src="quotes-typing.svg" alt="Typing SVG quote" />
 </div>
 
-<div style="width: 92%; margin: 18px auto;">
-  <div style="display: inline-block; width: 48%; min-width: 280px; border: 2px solid #24292f; border-radius: 12px; padding: 10px 0; margin: 6px;">
-    <h5>Feel free to explore my projects in my repositories</h5>
-  </div>
-
-  <div style="display: inline-block; width: 48%; min-width: 280px; border: 2px solid #24292f; border-radius: 12px; padding: 10px 0; margin: 6px;">
-    <h5>Let's build something awesome together!</h5>
-  </div>
-</div>
+<p align="center">
+  <sub>Feel free to explore my projects in my repositories</sub>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <sub>Let's build something awesome together!</sub>
+</p>
 
 </div>
