@@ -19,7 +19,7 @@
 </div>
 
 <div align="center">
-  <img align="left" src="https://streak-stats.demolab.com?user=KOUSHIKG04&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5" height="125" alt="GitHub streak graph" />
+  <img align="left" src="https://streak-stats.demolab.com?user=KOUSHIKG04&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5" height="165" alt="GitHub streak graph" />
 
   <strong>Hire Me</strong>
   <br />
@@ -35,8 +35,9 @@
   <br />
   <br />
   <a href="#" target="_blank">
-    <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/resume-icon-svg-download-png-4040385.png?f=webp&w=128" height="34" alt="Resume" />
+    <img src="https://img.icons8.com/color/1200/resume.jpg" height="34" alt="Resume" />
   </a>
+
 </div>
 
 <br clear="both" />
