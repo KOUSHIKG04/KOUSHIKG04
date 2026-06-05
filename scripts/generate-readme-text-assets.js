@@ -22,18 +22,18 @@ function escapeXml(value) {
     .replace(/"/g, "&quot;");
 }
 
-function writeTextSvg(fileName, { height, fontSize, lines }) {
+function writeTextSvg(fileName, { width = 1000, height, fontSize, lines, textAnchor = "middle", x = 500 }) {
   const lineHeight = Math.round(fontSize * 1.45);
   const totalTextHeight = lineHeight * (lines.length - 1);
   const startY = Math.round((height - totalTextHeight) / 2);
   const text = lines
     .map((line, index) => {
       const y = startY + index * lineHeight;
-      return `  <text x="500" y="${y}">${escapeXml(line)}</text>`;
+      return `  <text x="${x}" y="${y}">${escapeXml(line)}</text>`;
     })
     .join("\n");
 
-  const svg = `<svg width="1000" height="${height}" viewBox="0 0 1000 ${height}" fill="none" xmlns="http://www.w3.org/2000/svg">
+  const svg = `<svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
     ${fontFace}
 
@@ -42,7 +42,7 @@ function writeTextSvg(fileName, { height, fontSize, lines }) {
       font-size: ${fontSize}px;
       font-weight: 500;
       fill: #f7f7f7;
-      text-anchor: middle;
+      text-anchor: ${textAnchor};
       dominant-baseline: middle;
     }
   </style>
@@ -95,7 +95,7 @@ function writeIntroSvg() {
 
   const iconMarkup = icons
     .map((icon, index) => {
-      const x = 666 + index * 30;
+      const x = 803 + index * 28;
       const iconPath = path.join(ROOT, "assets", "icons", icon.file);
       const iconData = fs.readFileSync(iconPath).toString("base64");
       const href = `data:image/svg+xml;base64,${iconData}`;
@@ -118,7 +118,7 @@ function writeIntroSvg() {
       dominant-baseline: middle;
     }
   </style>
-  <text x="32" y="36">Hi there! I'm KOUSHIK G, a Frontend Developer with hands-on experience in</text>
+  <text x="32" y="36" textLength="765" lengthAdjust="spacingAndGlyphs">Hi there! I'm KOUSHIK G, a Frontend Developer with hands-on experience in</text>
 ${iconMarkup}
   <text x="32" y="68">I focus on building responsive, user-centric applications and enjoy exploring modern technologies,</text>
   <text x="32" y="96">improving development practices, and turning ideas into useful digital products.</text>
@@ -130,11 +130,42 @@ ${iconMarkup}
 
 writeIntroSvg();
 
-writeTextSvg("readme-footer-text.svg", {
-  height: 52,
-  fontSize: 28,
-  lines: ["Let's build something awesome together!"],
-});
+function writeFooterSvgs() {
+  const footerTextSvg = `<svg width="570" height="92" viewBox="0 0 570 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    ${fontFace}
+
+    text {
+      font-family: "Geist PixelSquare", "Geist Mono", "Fira Code", Consolas, monospace;
+      font-size: 31px;
+      font-weight: 500;
+      fill: #f7f7f7;
+      text-anchor: start;
+      dominant-baseline: middle;
+    }
+  </style>
+  <text x="4" y="46" textLength="558" lengthAdjust="spacingAndGlyphs">Let's build something awesome together!</text>
+</svg>
+`;
+
+  fs.writeFileSync(path.join(ROOT, "readme-footer-text.svg"), footerTextSvg);
+
+  const linkedinData = fs.readFileSync(path.join(ROOT, "linkedin.png")).toString("base64");
+  const twitterData = fs.readFileSync(path.join(ROOT, "twitter-x-.png")).toString("base64");
+  const footerIconsSvg = `<svg width="610" height="92" viewBox="0 0 610 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(32 30)">
+    <path d="M0 4C0 1.8 1.8 0 4 0H28C30.2 0 32 1.8 32 4V28C32 30.2 30.2 32 28 32H4C1.8 32 0 30.2 0 28V4Z" fill="#EA4335"/>
+    <path d="M5 9L16 17L27 9V25H22V18L16 22.5L10 18V25H5V9Z" fill="#111111"/>
+  </g>
+  <image href="data:image/png;base64,${linkedinData}" x="82" y="30" width="32" height="32" />
+  <image href="data:image/png;base64,${twitterData}" x="132" y="30" width="32" height="32" />
+</svg>
+`;
+
+  fs.writeFileSync(path.join(ROOT, "readme-footer-icons.svg"), footerIconsSvg);
+}
+
+writeFooterSvgs();
 
 function writeStreaksSvg() {
   const totalContributions = readExistingSvgText("streaks-card.svg", "total-contributions");
