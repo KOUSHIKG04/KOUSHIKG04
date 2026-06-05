@@ -18,7 +18,7 @@
   </p>
 </div>
 
-<img src="svg-card.svg" width="92%" alt="GitHub contribution streak card" />
+<img src="streaks-card.svg" width="92%" alt="GitHub contribution streak card" />
 
 <br />
 <br />
@@ -28,7 +28,6 @@
 </div>
 
 <p>Let's build something awesome together! <span align="center">
-  <strong>Hire Me</strong>
   &nbsp;&nbsp;&nbsp;
   <a href="mailto:koushikgoffical04@gmail.com">
     <img src="https://cdn.simpleicons.org/gmail/D14836" height="22" alt="Gmail" />
