@@ -1,4 +1,4 @@
-<svg width="1000" height="44" viewBox="0 0 1000 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1000" height="130" viewBox="0 0 1000 130" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
     @font-face {
       font-family: "Geist PixelSquare";
@@ -9,12 +9,32 @@
 
     text {
       font-family: "Geist PixelSquare", "Geist Mono", "Fira Code", Consolas, monospace;
-      font-size: 19px;
+      font-size: 17px;
       font-weight: 500;
       fill: #f7f7f7;
-      text-anchor: middle;
+      text-anchor: start;
       dominant-baseline: middle;
     }
   </style>
-  <text x="500" y="22">Hi there! I'm KOUSHIK G, a Frontend Developer with hands-on experience in</text>
+  <text x="32" y="36">Hi there! I'm KOUSHIK G, a Frontend Developer with hands-on experience in</text>
+  <image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" x="778" y="22" width="22" height="22">
+    <title>React logo</title>
+  </image>
+  <image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" x="812" y="22" width="22" height="22">
+    <title>Next.js logo</title>
+  </image>
+  <image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" x="846" y="22" width="22" height="22">
+    <title>JavaScript logo</title>
+  </image>
+  <image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" x="880" y="22" width="22" height="22">
+    <title>TypeScript logo</title>
+  </image>
+  <image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bun/bun-original.svg" x="914" y="22" width="22" height="22">
+    <title>Bun.js logo</title>
+  </image>
+  <image href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" x="948" y="22" width="22" height="22">
+    <title>Node.js logo</title>
+  </image>
+  <text x="32" y="76">I focus on building responsive, user-centric applications and enjoy exploring modern technologies,</text>
+  <text x="32" y="104">improving development practices, and turning ideas into useful digital products.</text>
 </svg>

@@ -1,21 +1,7 @@
 <div align="center">
 
 <div style="width: 92%; border: 2px solid #24292f; border-radius: 18px; padding: 22px 28px; margin: 18px auto;">
-  <img src="readme-intro-top.svg" width="100%" alt="Hi there! I'm KOUSHIK G, a Frontend Developer with hands-on experience in" />
-  <p align="center">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="20" alt="React logo" />
-    &nbsp;
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="20" alt="Next.js logo" />
-    &nbsp;
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="20" alt="JavaScript logo" />
-    &nbsp;
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="20" alt="TypeScript logo" />
-    &nbsp;
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bun/bun-original.svg" height="20" alt="Bun.js logo" />
-    &nbsp;
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="20" alt="Node.js logo" />
-  </p>
-  <img src="readme-intro-bottom.svg" width="100%" alt="I focus on building responsive, user-centric applications and enjoy exploring modern technologies, improving development practices, and turning ideas into useful digital products." />
+  <img src="readme-intro.svg" width="100%" alt="Hi there! I'm KOUSHIK G, a Frontend Developer with hands-on experience in React, Next.js, JavaScript, TypeScript, Bun.js, and Node.js. I focus on building responsive, user-centric applications and enjoy exploring modern technologies, improving development practices, and turning ideas into useful digital products." />
 </div>
 
 <!-- <img src="streaks-card.svg" width="92%" alt="GitHub contribution streak card" /> -->
