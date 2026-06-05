@@ -131,7 +131,7 @@ ${iconMarkup}
 writeIntroSvg();
 
 function writeFooterSvgs() {
-  const footerTextSvg = `<svg width="570" height="92" viewBox="0 0 570 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+  const footerTextSvg = `<svg width="570" height="40" viewBox="0 0 570 40" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
     ${fontFace}
 
@@ -144,7 +144,7 @@ function writeFooterSvgs() {
       dominant-baseline: middle;
     }
   </style>
-  <text x="4" y="46" textLength="558" lengthAdjust="spacingAndGlyphs">Let's build something awesome together!</text>
+  <text x="4" y="20" textLength="558" lengthAdjust="spacingAndGlyphs">Let's build something awesome together!</text>
 </svg>
 `;
 
@@ -262,19 +262,19 @@ function writeQuotesSvg() {
   const clipPaths = quotes
     .map(
       (_, index) =>
-        `    <clipPath id="clip-quote-${index + 1}"><rect id="quote-mask-${index + 1}" class="mask-quote" x="0" y="27" width="0" height="32"/></clipPath>`
+        `    <clipPath id="clip-quote-${index + 1}"><rect id="quote-mask-${index + 1}" class="mask-quote" x="0" y="5" width="0" height="32"/></clipPath>`
     )
     .join("\n");
 
   const groups = quotes
     .map(
       (quote, index) => `  <g id="group-${index + 1}" class="group">
-    <text class="quote" x="500" y="43" clip-path="url(#clip-quote-${index + 1})">"${escapeXml(quote)}"</text>
+    <text class="quote" x="500" y="21" clip-path="url(#clip-quote-${index + 1})">"${escapeXml(quote)}"</text>
   </g>`
     )
     .join("\n\n");
 
-  const svg = `<svg width="1000" height="86" viewBox="0 0 1000 86" fill="none" xmlns="http://www.w3.org/2000/svg">
+  const svg = `<svg width="1000" height="42" viewBox="0 0 1000 42" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
     @font-face {
       font-family: "Poppins";
