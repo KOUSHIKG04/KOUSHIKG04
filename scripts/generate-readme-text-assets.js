@@ -54,27 +54,27 @@ ${text}
 function writeIntroSvg() {
   const icons = [
     {
-      href: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      file: "react-original.svg",
       alt: "React logo",
     },
     {
-      href: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+      file: "nextjs-original.svg",
       alt: "Next.js logo",
     },
     {
-      href: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      file: "javascript-original.svg",
       alt: "JavaScript logo",
     },
     {
-      href: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      file: "typescript-original.svg",
       alt: "TypeScript logo",
     },
     {
-      href: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bun/bun-original.svg",
+      file: "bun-original.svg",
       alt: "Bun.js logo",
     },
     {
-      href: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+      file: "nodejs-original.svg",
       alt: "Node.js logo",
     },
   ];
@@ -82,7 +82,10 @@ function writeIntroSvg() {
   const iconMarkup = icons
     .map((icon, index) => {
       const x = 778 + index * 34;
-      return `  <image href="${escapeXml(icon.href)}" x="${x}" y="22" width="22" height="22">
+      const iconPath = path.join(ROOT, "assets", "icons", icon.file);
+      const iconData = fs.readFileSync(iconPath).toString("base64");
+      const href = `data:image/svg+xml;base64,${iconData}`;
+      return `  <image href="${href}" x="${x}" y="22" width="22" height="22">
     <title>${escapeXml(icon.alt)}</title>
   </image>`;
     })
