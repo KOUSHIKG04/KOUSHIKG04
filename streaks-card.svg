@@ -46,7 +46,7 @@
   <line x1="500" y1="48" x2="500" y2="131" stroke="#2c2c2c" stroke-width="2" />
   <line x1="900" y1="48" x2="900" y2="131" stroke="#2c2c2c" stroke-width="2" />
 
-  <text id="total-contributions" class="value" x="300" y="75">586</text>
+  <text id="total-contributions" class="value" x="300" y="75">476</text>
   <text class="label" x="300" y="121">TOTAL CONTRIBUTION</text>
 
   <text id="current-streak" class="value" x="670" y="75">10</text>
