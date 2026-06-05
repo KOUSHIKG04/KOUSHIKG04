@@ -18,11 +18,16 @@
   </p>
 </div>
 
+<img src="svg-card.svg" width="92%" alt="GitHub contribution streak card" />
+
+<br />
+<br />
+
 <div style="width: 92%; border: 2px solid #24292f; border-radius: 18px; padding: 16px 24px; margin: 18px auto;">
   <img src="quotes-typing.svg" alt="Typing SVG quote" />
 </div>
 
-<p>Let's build something awesome together! <p align="center">
+<p>Let's build something awesome together! <span align="center">
   <strong>Hire Me</strong>
   &nbsp;&nbsp;&nbsp;
   <a href="mailto:koushikgoffical04@gmail.com">
@@ -36,6 +41,6 @@
   <a href="https://drive.google.com/file/d/1X_RBhVZRfhsL71g1ugxSn2UFtGKifh-e/view?usp=drive_link" target="_blank">
     <img src="user-profile.png" height="22" alt="Resume" />
   </a>
-</p></p>
+</span></p>
 
 </div>

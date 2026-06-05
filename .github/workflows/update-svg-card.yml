@@ -1,0 +1,49 @@
+name: Update SVG card
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 18 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/update-svg-card.yml"
+      - "scripts/generate-svg-card.js"
+      - "svg-card.svg"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Generate SVG card
+        run: node scripts/generate-svg-card.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: KOUSHIKG04
+          STREAK_FROM: "2021-12-21"
+
+      - name: Commit updated SVG
+        run: |
+          if git diff --quiet -- svg-card.svg; then
+            echo "No SVG card changes."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add svg-card.svg
+          git commit -m "Update SVG card stats"
+          git push
