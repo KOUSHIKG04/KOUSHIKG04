@@ -13,12 +13,12 @@
     &nbsp;
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bun/bun-original.svg" height="14" alt="Bun.js logo" />
     &nbsp;
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="14" alt="React Native logo" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="14" alt="Node.js logo" />
     . I focus on building responsive, user-centric applications and enjoy exploring modern technologies, improving development practices, and turning ideas into useful digital products.
   </p>
 </div>
 
-<img src="streaks-card.svg" width="92%" alt="GitHub contribution streak card" />
+<!-- <img src="streaks-card.svg" width="92%" alt="GitHub contribution streak card" /> -->
 
 <br />
 <br />
