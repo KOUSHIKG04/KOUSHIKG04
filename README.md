@@ -1,8 +1,8 @@
-<div align="center">
+<div align="center" style="font-family: 'Geist PixelSquare', 'Geist Mono', 'Fira Code', Consolas, monospace; font-weight: 500;">
 
 <div style="width: 92%; border: 2px solid #24292f; border-radius: 18px; padding: 22px 28px; margin: 18px auto;">
   <p align="left">
-    Hi there! <strong>I'm KOUSHIK G</strong>, a Frontend Developer with hands-on experience in
+    Hi there! <strong style="font-weight: 500;">I'm KOUSHIK G</strong>, a Frontend Developer with hands-on experience in
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="14" alt="React logo" />
     &nbsp;
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="14" alt="Next.js logo" />
@@ -27,7 +27,7 @@
   <img src="quotes-typing.svg" alt="Typing SVG quote" />
 </div>
 
-<p>Let's build something awesome together! <span align="center">
+<p> <h1>Let's build something awesome together!</h1>  <span align="center">
   &nbsp;&nbsp;&nbsp;
   <a href="mailto:koushikgoffical04@gmail.com">
     <img src="https://cdn.simpleicons.org/gmail/D14836" height="22" alt="Gmail" />
