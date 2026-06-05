@@ -10,7 +10,7 @@ on:
     paths:
       - ".github/workflows/update-svg-card.yml"
       - "scripts/generate-svg-card.js"
-      - "svg-card.svg"
+      - "streaks-card.svg"
 
 permissions:
   contents: write
@@ -37,13 +37,13 @@ jobs:
 
       - name: Commit updated SVG
         run: |
-          if git diff --quiet -- svg-card.svg; then
+          if git diff --quiet -- streaks-card.svg; then
             echo "No SVG card changes."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add svg-card.svg
+          git add streaks-card.svg
           git commit -m "Update SVG card stats"
           git push

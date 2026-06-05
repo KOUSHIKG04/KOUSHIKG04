@@ -3,7 +3,7 @@ const path = require("path");
 
 const USERNAME = process.env.GITHUB_USERNAME || "KOUSHIKG04";
 const FROM_DATE = process.env.STREAK_FROM || "2021-12-21";
-const SVG_PATH = path.join(__dirname, "..", "svg-card.svg");
+const SVG_PATH = path.join(__dirname, "..", "streaks-card.svg");
 const TOKEN = process.env.GITHUB_TOKEN;
 const MOCK = process.argv.includes("--mock") || process.env.MOCK_STREAK_DATA === "1";
 const MONTH = new Intl.DateTimeFormat("en", { month: "short", timeZone: "UTC" });
@@ -51,6 +51,16 @@ function setText(svg, id, value) {
   }
 
   return svg.replace(pattern, `$1${escapeXml(value)}$3`);
+}
+
+function getText(svg, id) {
+  const pattern = new RegExp(`<text\\b[^>]*id="${id}"[^>]*>([\\s\\S]*?)</text>`);
+  const match = svg.match(pattern);
+  if (!match) {
+    throw new Error(`Missing SVG text node: ${id}`);
+  }
+
+  return match[1];
 }
 
 function contributionRanges(fromDate, toDate) {
@@ -185,14 +195,11 @@ async function fetchStats() {
   return calculateStats(dayMap, FROM_DATE, today, totalContributions);
 }
 
-function mockStats() {
+function mockStats(svg) {
   return {
-    totalContributions: 556,
-    totalRange: "Dec 21, 2021 - Present",
-    currentStreak: 9,
-    currentRange: "May 27 - Jun 4",
-    longestStreak: 34,
-    longestRange: "Apr 13 - May 16",
+    totalContributions: process.env.MOCK_TOTAL_CONTRIBUTIONS || getText(svg, "total-contributions"),
+    currentStreak: process.env.MOCK_CURRENT_STREAK || getText(svg, "current-streak"),
+    longestStreak: process.env.MOCK_LONGEST_STREAK || getText(svg, "longest-streak"),
   };
 }
 
@@ -201,18 +208,15 @@ async function main() {
     throw new Error("GITHUB_TOKEN is required unless --mock is used.");
   }
 
-  const stats = MOCK ? mockStats() : await fetchStats();
   let svg = fs.readFileSync(SVG_PATH, "utf8");
+  const stats = MOCK ? mockStats(svg) : await fetchStats();
 
   svg = setText(svg, "total-contributions", stats.totalContributions);
-  svg = setText(svg, "total-range", stats.totalRange);
   svg = setText(svg, "current-streak", stats.currentStreak);
-  svg = setText(svg, "current-range", stats.currentRange);
   svg = setText(svg, "longest-streak", stats.longestStreak);
-  svg = setText(svg, "longest-range", stats.longestRange);
 
   fs.writeFileSync(SVG_PATH, svg);
-  console.log(`Updated svg-card.svg for ${USERNAME}`);
+  console.log(`Updated streaks-card.svg for ${USERNAME}`);
 }
 
 main().catch((error) => {
