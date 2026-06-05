@@ -11,7 +11,7 @@
 <img src="streaks-card.svg" width="100%" alt="GitHub contribution and streak stats card" />
 <br />
 
-<div style="width: 93%; padding: 0 20px; margin: 0 auto;">
+<div style="width: 93%; border: 2px solid #24292f; border-radius: 18px; padding: 16px 14px; margin: 1px auto;">
 <p align="left" style="margin-top: 12px;">
   <img src="readme-footer-text.svg" width="46%" align="middle" alt="Let's build something awesome together!" />
   <a href="mailto:koushikgoffical04@gmail.com" style="text-decoration: none;"><img src="https://cdn.simpleicons.org/gmail/D14836" height="18" align="middle" alt="Gmail" /></a>
