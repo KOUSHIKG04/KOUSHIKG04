@@ -118,7 +118,7 @@ function writeIntroSvg() {
       dominant-baseline: middle;
     }
   </style>
-  <text x="32" y="36" textLength="765" lengthAdjust="spacingAndGlyphs">Hi there! I'm KOUSHIK G, a FRONTEND focused full stack developer, experienced in</text>
+  <text x="32" y="36" textLength="765" lengthAdjust="spacingAndGlyphs">Hi there! I'm KOUSHIK G, a FRONTEND focused FULLSTACK developer, experienced in</text>
 ${iconMarkup}
   <text x="32" y="68">I focus on building responsive, user-centric applications and enjoy exploring modern technologies,</text>
   <text x="32" y="96">improving development practices, and turning ideas into useful digital products.</text>
