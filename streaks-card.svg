@@ -49,7 +49,7 @@
   <text id="total-contributions" class="value" x="300" y="75">585</text>
   <text class="label" x="300" y="121">TOTAL CONTRIBUTION</text>
 
-  <text id="current-streak" class="value" x="670" y="75">16</text>
+  <text id="current-streak" class="value" x="670" y="75">0</text>
   <g transform="translate(718 52)">
     <rect x="16" y="0" width="8" height="8" fill="#ff3d20" />
     <rect x="8" y="8" width="8" height="8" fill="#ff5a1f" />
