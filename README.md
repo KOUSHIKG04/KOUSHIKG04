@@ -1,7 +1,8 @@
 <div align="center">
 
-<div style="width: 92%; border: 2px solid #24292f; border-radius: 18px; padding: 6px 16px; margin: 18px auto;">
-  <img src="quotes-typing.svg" alt="Typing SVG quote" />
+<div style="width: 92%; border: 2px solid #24292f; border-radius: 18px; padding: 6px 16px; margin: 18px auto; display: flex; align-items: center; justify-content: space-between; gap: 14px;">
+  <img src="quotes-typing.svg" width="100%" style="flex: 1; min-width: 0;" alt="Typing SVG quote" />
+  <img src="https://koushik-profile-views.koushik-profile-counter-worker.workers.dev/profile-views.svg" width="142" height="26" align="right" style="flex: 0 0 142px;" alt="KOUSHIKG04 live profile view count" />
 </div>
 
 <div style="width: 93%; border: 2px solid #24292f; border-radius: 18px; padding: 16px 14px; margin: 1px auto;">

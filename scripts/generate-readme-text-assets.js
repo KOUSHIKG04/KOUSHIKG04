@@ -262,14 +262,14 @@ function writeQuotesSvg() {
   const clipPaths = quotes
     .map(
       (_, index) =>
-        `    <clipPath id="clip-quote-${index + 1}"><rect id="quote-mask-${index + 1}" class="mask-quote" x="0" y="5" width="0" height="32"/></clipPath>`
+        `    <clipPath id="clip-quote-${index + 1}"><rect id="quote-mask-${index + 1}" class="mask-quote" x="16" y="5" width="0" height="32"/></clipPath>`
     )
     .join("\n");
 
   const groups = quotes
     .map(
       (quote, index) => `  <g id="group-${index + 1}" class="group">
-    <text class="quote" x="500" y="21" clip-path="url(#clip-quote-${index + 1})">"${escapeXml(quote)}"</text>
+    <text class="quote" x="16" y="21" clip-path="url(#clip-quote-${index + 1})">"${escapeXml(quote)}"</text>
   </g>`
     )
     .join("\n\n");
@@ -287,7 +287,7 @@ function writeQuotesSvg() {
       font-family: "Poppins", Arial, sans-serif;
       font-weight: 500;
       fill: #f7f7f7;
-      text-anchor: middle;
+      text-anchor: start;
       dominant-baseline: middle;
     }
 

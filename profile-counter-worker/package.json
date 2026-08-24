@@ -1,0 +1,13 @@
+{
+  "name": "koushik-profile-counter-worker",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate-font-data.js",
+    "test": "node --test",
+    "deploy": "npm run generate && wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.33.1"
+  }
+}
