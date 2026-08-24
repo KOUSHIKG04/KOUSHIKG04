@@ -20,11 +20,10 @@
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://x.com/_kousshiikg" target="_blank" style="text-decoration: none;"><img src="twitter-x-.png" height="18" align="middle" alt="X" /></a>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://drive.google.com/file/d/120WhbNoPKWCE-HyQ0XKjZmsgQfS6gZzy/view?usp=sharing" target="_blank" style="text-decoration: none;"><img src="resume.png" height="18" align="middle" alt="Resume" />
+  <a href="https://drive.google.com/file/d/120WhbNoPKWCE-HyQ0XKjZmsgQfS6gZzy/view?usp=sharing" target="_blank" style="text-decoration: none;"><img src="resume.png" height="18" align="middle" alt="Resume" /></a>
   <!-- &nbsp;<span style="position: relative; top: 2px;">View Resume</span> -->
-  </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://koushik-profile-views.koushik-profile-counter-worker.workers.dev/profile-views.svg" width="109" height="20" align="middle" alt="KOUSHIKG04 live profile view count" />
+  <img src="https://koushik-profile-views.koushik-profile-counter-worker.workers.dev/profile-views.svg" width="120" height="32" align="middle" alt="KOUSHIKG04 live profile view count" />
 </p>
 </div>
 </div>
