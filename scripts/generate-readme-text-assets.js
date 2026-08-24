@@ -262,19 +262,19 @@ function writeQuotesSvg() {
   const clipPaths = quotes
     .map(
       (_, index) =>
-        `    <clipPath id="clip-quote-${index + 1}"><rect id="quote-mask-${index + 1}" class="mask-quote" x="16" y="0" width="0" height="26"/></clipPath>`
+        `    <clipPath id="clip-quote-${index + 1}"><rect id="quote-mask-${index + 1}" class="mask-quote" x="0" y="5" width="0" height="32"/></clipPath>`
     )
     .join("\n");
 
   const groups = quotes
     .map(
       (quote, index) => `  <g id="group-${index + 1}" class="group">
-    <text class="quote" x="16" y="13" clip-path="url(#clip-quote-${index + 1})">"${escapeXml(quote)}"</text>
+    <text class="quote" x="500" y="21" clip-path="url(#clip-quote-${index + 1})">"${escapeXml(quote)}"</text>
   </g>`
     )
     .join("\n\n");
 
-  const svg = `<svg width="1000" height="26" viewBox="0 0 1000 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+  const svg = `<svg width="1000" height="42" viewBox="0 0 1000 42" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
     @font-face {
       font-family: "Poppins";
@@ -287,7 +287,7 @@ function writeQuotesSvg() {
       font-family: "Poppins", Arial, sans-serif;
       font-weight: 500;
       fill: #f7f7f7;
-      text-anchor: start;
+      text-anchor: middle;
       dominant-baseline: middle;
     }
 

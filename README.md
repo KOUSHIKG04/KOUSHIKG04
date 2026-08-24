@@ -1,9 +1,7 @@
 <div align="center">
 
-<div style="width: 93%; border: 2px solid #24292f; border-radius: 18px; padding: 16px 14px; margin: 1px auto;">
-  <img src="quotes-typing.svg" width="76%" align="left" alt="Typing SVG quote" />
-  <img src="https://koushik-profile-views.koushik-profile-counter-worker.workers.dev/profile-views.svg" width="142" height="26" align="right" style="margin-top: -5px;" alt="KOUSHIKG04 live profile view count" />
-  <br clear="both" />
+<div align="center" style="width: 92%; border: 2px solid #24292f; border-radius: 18px; padding: 12px 16px 8px; margin: 18px auto;">
+  <img src="quotes-typing.svg" alt="Typing SVG quote" />
 </div>
 
 <div style="width: 93%; border: 2px solid #24292f; border-radius: 18px; padding: 16px 14px; margin: 1px auto;">
@@ -25,6 +23,8 @@
   <a href="https://drive.google.com/file/d/120WhbNoPKWCE-HyQ0XKjZmsgQfS6gZzy/view?usp=sharing" target="_blank" style="text-decoration: none;"><img src="resume.png" height="18" align="middle" alt="Resume" />
   <!-- &nbsp;<span style="position: relative; top: 2px;">View Resume</span> -->
   </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://koushik-profile-views.koushik-profile-counter-worker.workers.dev/profile-views.svg" width="109" height="20" align="middle" alt="KOUSHIKG04 live profile view count" />
 </p>
 </div>
 </div>
