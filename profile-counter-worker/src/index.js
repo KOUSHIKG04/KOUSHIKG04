@@ -27,7 +27,7 @@ export function extractCount(badgeSvg) {
 export function renderProfileViewsSvg(count) {
   const safeCount = escapeXml(count);
 
-  return `<svg width="109" height="30" viewBox="0 0 109 30" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Profile views: ${safeCount}">
+  return `<svg width="109" height="28" viewBox="0 0 109 28" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Profile views: ${safeCount}">
   <style>
     @font-face {
       font-family: "Geist PixelSquare";
@@ -61,12 +61,12 @@ export function renderProfileViewsSvg(count) {
     </pattern>
   </defs>
 
-  <rect x="1" y="1" width="107" height="28" rx="6" fill="#020202" stroke="#2c2c2c" stroke-width="2" />
-  <rect x="4" y="4" width="101" height="22" rx="3" fill="url(#diagonal-lines)" stroke="#111111" />
-  <line x1="82" y1="5" x2="82" y2="25" stroke="#2c2c2c" />
+  <rect x="1" y="1" width="107" height="26" rx="6" fill="#020202" stroke="#2c2c2c" stroke-width="2" />
+  <rect x="4" y="4" width="101" height="20" rx="3" fill="url(#diagonal-lines)" stroke="#111111" />
+  <line x1="82" y1="5" x2="82" y2="23" stroke="#2c2c2c" />
 
-  <text class="label" x="9" y="15.5">PROFILE VIEWS</text>
-  <text class="count" x="95.5" y="15.5">${safeCount}</text>
+  <text class="label" x="9" y="14.5">PROFILE VIEWS</text>
+  <text class="count" x="95.5" y="14.5">${safeCount}</text>
 </svg>`;
 }
 
