@@ -24,6 +24,8 @@
   <!-- &nbsp;<span style="position: relative; top: 2px;">View Resume</span> -->
   <!-- &nbsp;&nbsp;&nbsp;&nbsp; -->
   <!-- <img src="https://koushik-profile-views.koushik-profile-counter-worker.workers.dev/profile-views.svg" width="109" height="28" align="middle" style="margin-top: 4px;" alt="KOUSHIKG04 live profile view count" /> -->
+  <br /><br />
+  <a href="https://kousshiikg.vercel.app" target="_blank" style="text-decoration: none;"><img src="portfolio-cta.svg" width="180" height="30" align="middle" alt="View my portfolio" /></a>
 </p>
 </div>
 </div>

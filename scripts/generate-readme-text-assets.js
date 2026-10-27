@@ -130,6 +130,32 @@ ${iconMarkup}
 
 writeIntroSvg();
 
+function writePortfolioCtaSvg() {
+  const svg = `<svg width="180" height="30" viewBox="0 0 180 30" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="View my portfolio">
+  <style>
+    ${fontFace}
+
+    .cta {
+      font-family: "Geist PixelSquare", "Geist Mono", "Fira Code", Consolas, monospace;
+      font-size: 12px;
+      font-weight: 500;
+      fill: #f7f7f7;
+      letter-spacing: 0.3px;
+      text-decoration: underline;
+      text-anchor: middle;
+      dominant-baseline: middle;
+    }
+  </style>
+
+  <text class="cta" x="90" y="15">VIEW MY PORTFOLIO</text>
+</svg>
+`;
+
+  fs.writeFileSync(path.join(ROOT, "portfolio-cta.svg"), svg);
+}
+
+writePortfolioCtaSvg();
+
 function writeFooterSvgs() {
   const footerTextSvg = `<svg width="570" height="40" viewBox="0 0 570 40" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
