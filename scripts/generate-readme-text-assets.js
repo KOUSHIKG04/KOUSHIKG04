@@ -131,7 +131,7 @@ ${iconMarkup}
 writeIntroSvg();
 
 function writePortfolioCtaSvg() {
-  const svg = `<svg width="180" height="30" viewBox="0 0 180 30" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="View my portfolio">
+  const svg = `<svg width="150" height="24" viewBox="0 0 150 24" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="View my portfolio">
   <style>
     ${fontFace}
 
@@ -145,9 +145,19 @@ function writePortfolioCtaSvg() {
       text-anchor: middle;
       dominant-baseline: middle;
     }
+
+    .smiley {
+      font-family: Arial, sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      fill: #f7f7f7;
+      text-anchor: middle;
+      dominant-baseline: middle;
+    }
   </style>
 
-  <text class="cta" x="90" y="15">VIEW MY PORTFOLIO</text>
+  <text class="cta" x="65" y="12">VIEW MY PORTFOLIO</text>
+  <text class="smiley" x="137" y="12">:)</text>
 </svg>
 `;
 

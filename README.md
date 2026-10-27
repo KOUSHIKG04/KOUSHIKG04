@@ -20,12 +20,12 @@
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://x.com/_kousshiikg" target="_blank" style="text-decoration: none;"><img src="twitter-x-.png" height="18" align="middle" alt="X" /></a>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://drive.google.com/file/d/120WhbNoPKWCE-HyQ0XKjZmsgQfS6gZzy/view?usp=sharing" target="_blank" style="text-decoration: none;"><img src="resume.png" height="18" align="middle" alt="Resume" /></a>
+  <!-- <a href="https://drive.google.com/file/d/120WhbNoPKWCE-HyQ0XKjZmsgQfS6gZzy/view?usp=sharing" target="_blank" style="text-decoration: none;"><img src="resume.png" height="18" align="middle" alt="Resume" /></a> -->
+  <!-- &nbsp;&nbsp; -->
+  <a href="https://kousshiikg.vercel.app" target="_blank" style="text-decoration: none;"><img src="portfolio-cta.svg" width="150" height="24" align="middle" alt="View my portfolio" /></a>
   <!-- &nbsp;<span style="position: relative; top: 2px;">View Resume</span> -->
   <!-- &nbsp;&nbsp;&nbsp;&nbsp; -->
   <!-- <img src="https://koushik-profile-views.koushik-profile-counter-worker.workers.dev/profile-views.svg" width="109" height="28" align="middle" style="margin-top: 4px;" alt="KOUSHIKG04 live profile view count" /> -->
-  <br /><br />
-  <a href="https://kousshiikg.vercel.app" target="_blank" style="text-decoration: none;"><img src="portfolio-cta.svg" width="180" height="30" align="middle" alt="View my portfolio" /></a>
 </p>
 </div>
 </div>
