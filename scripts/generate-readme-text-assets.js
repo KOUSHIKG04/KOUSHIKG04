@@ -160,6 +160,12 @@ function writePortfolioCtaSvg() {
       text-anchor: middle;
       dominant-baseline: middle;
     }
+
+    @media (prefers-color-scheme: light) {
+      .cta, .smiley {
+        fill: #24292f;
+      }
+    }
   </style>
 
   <text class="cta" x="65" y="12">VIEW MY PORTFOLIO</text>
@@ -335,6 +341,12 @@ function writeQuotesSvg() {
 
     .quote {
       font-size: 18px;
+    }
+
+    @media (prefers-color-scheme: light) {
+      text {
+        fill: #24292f;
+      }
     }
 
     .group {

@@ -19,6 +19,12 @@
       font-size: 18px;
     }
 
+    @media (prefers-color-scheme: light) {
+      text {
+        fill: #24292f;
+      }
+    }
+
     .group {
       opacity: 0;
       animation: show 50s linear infinite;
