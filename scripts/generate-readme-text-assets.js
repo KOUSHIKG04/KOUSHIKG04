@@ -22,6 +22,15 @@ function escapeXml(value) {
     .replace(/"/g, "&quot;");
 }
 
+function writeThemedSvg(fileName, svg) {
+  // GitHub chooses these assets using its active theme, independently of the OS.
+  const darkSvg = svg.replace(/\n    @media \(prefers-color-scheme: light\) \{\n      [^\n]+ \{\n        fill: #24292f;\n      \}\n    \}\n/g, "");
+  const lightSvg = darkSvg.replace(/fill: #f7f7f7;/g, "fill: #24292f;");
+  fs.writeFileSync(path.join(ROOT, fileName.replace(/\.svg$/, "-dark.svg")), darkSvg);
+  fs.writeFileSync(path.join(ROOT, fileName.replace(/\.svg$/, "-light.svg")), lightSvg);
+  fs.writeFileSync(path.join(ROOT, fileName), svg);
+}
+
 function writeTextSvg(fileName, { width = 1000, height, fontSize, lines, textAnchor = "middle", x = 500 }) {
   const lineHeight = Math.round(fontSize * 1.45);
   const totalTextHeight = lineHeight * (lines.length - 1);
@@ -131,7 +140,7 @@ ${iconMarkup}
 </svg>
 `;
 
-  fs.writeFileSync(path.join(ROOT, "readme-intro.svg"), svg);
+  writeThemedSvg("readme-intro.svg", svg);
 }
 
 writeIntroSvg();
@@ -173,7 +182,7 @@ function writePortfolioCtaSvg() {
 </svg>
 `;
 
-  fs.writeFileSync(path.join(ROOT, "portfolio-cta.svg"), svg);
+  writeThemedSvg("portfolio-cta.svg", svg);
 }
 
 writePortfolioCtaSvg();
@@ -444,7 +453,7 @@ ${groups}
 </svg>
 `;
 
-  fs.writeFileSync(path.join(ROOT, "quotes-typing.svg"), svg);
+  writeThemedSvg("quotes-typing.svg", svg);
 }
 
 writeQuotesSvg();
