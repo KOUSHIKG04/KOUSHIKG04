@@ -117,6 +117,12 @@ function writeIntroSvg() {
       text-anchor: start;
       dominant-baseline: middle;
     }
+
+    @media (prefers-color-scheme: light) {
+      text {
+        fill: #24292f;
+      }
+    }
   </style>
   <text x="32" y="36" textLength="765" lengthAdjust="spacingAndGlyphs">Hi there! I'm KOUSHIK G, a FRONTEND focused FULLSTACK developer, experienced in</text>
 ${iconMarkup}
